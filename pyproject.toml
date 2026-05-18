@@ -1,0 +1,19 @@
+[project]
+name = "detections"
+version = "0.0.1"
+description = "Provides all the possible prevalent computer vision task wrappers and flavoured implementations"
+authors = [
+    {name = "Ankit Yadav", email = "ankit8290@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "pypi.README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[tool.pdm]
+distribution = true
